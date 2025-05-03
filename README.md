@@ -12,7 +12,7 @@ git clone git@github.com:t3-oss/create-t3-turbo.git
 
 Paths:
 - `/`: app router with a client component example
-- `spa/home`: react-router fully in SPA mode.
+- `/spa/home`: react-router fully in SPA mode.
 
 ---
 
