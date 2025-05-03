@@ -1,3 +1,17 @@
+### What is this?
+
+A Next.js project using app router and trpc, which were already a nice hack-fest on their own, but then I threw a little react-router into the mix.
+
+Honestly plays pretty well together, for a basic form app at least.
+
+I hacked this together from the repo you get after running this command:
+
+```bash
+git clone git@github.com:t3-oss/create-t3-turbo.git
+```
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
