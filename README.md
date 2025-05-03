@@ -10,6 +10,10 @@ I hacked this together from the repo you get after running this command:
 git clone git@github.com:t3-oss/create-t3-turbo.git
 ```
 
+Paths:
+- `/`: app router with a client component example
+- `spa/home`: react-router fully in SPA mode.
+
 ---
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
