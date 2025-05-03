@@ -6,7 +6,13 @@ if (env) {
 }
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  rewrites: async () => [
+    // route all SPA requests to app
+    {
+      source: "/spa/:path",
+      destination: "/spa",
+    },
+  ],
 };
 
 export default nextConfig;
