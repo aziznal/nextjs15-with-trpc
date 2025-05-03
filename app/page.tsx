@@ -1,3 +1,4 @@
+import { FormExample } from "@/lib/components/FormExample";
 import { Greeting } from "@/lib/components/Greeting";
 import { HydrateClient } from "@/lib/trpc/server";
 
@@ -8,6 +9,8 @@ export default function Home() {
         <h1 className="text-4xl">Hello World!</h1>
 
         <Greeting />
+
+        <FormExample />
       </div>
     </HydrateClient>
   );
